@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    /* text-align: justify; */
+}
+  .container{
+    display:flex;   
+    gap: 15px;  
+    justify-content: center; 
+     /* padding-left: 30%;  */
+}  
+
+/* partie reservé pour le deux sections  */
+
+.sectionA{
+    height: 670.6px;
+    width: 20%;
+    background-color: rgb(35, 119, 119);
+}
+.sectionB{
+    height: 670px;
+    width: 30%;
+    background-color: #fff;
+}
+
+/*  partie image */
+
+.sectionA img{
+    width: 30%;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 70px;
+    border-radius: 5px;
+} 
+
+/* continuté de la partie A */
+
+.sectionA .description{
+    font-size: 11px;
+    color: #fff;
+    padding: 30px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+} 
+
+h3{
+    padding-bottom: 5px;
+}
+.description .container2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.description .para1{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.description .para2{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+} 
+
+/* deuxième partie de la section B */
+.sectionB{
+    font-size: 15px;
+}
+.sectionB .h2{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+.h2{
+    color: rgba(37, 36, 36, 0.726);
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.sectionB .section2{
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+.description2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container3 .container4{
+    display: flex;
+    justify-content: space-between;
+}
+.container3 .container5{
+    display: flex;
+    justify-content: space-between;
+}
+.sectionB span{
+    color: aqua;
+
+} 
+.sectionB .liste{
+    padding: 10px;
+}
